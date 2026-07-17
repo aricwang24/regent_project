@@ -1,0 +1,4 @@
+interface:
+  display_name: "摄政王母 Skill"
+  short_description: "《摄政王·远岬》长篇创作路由、连续性管理、事实研究与完稿检查"
+  default_prompt: "Use $regent-novel to continue work on the Regent novel project while preserving canon, continuity, and publication integrity."
