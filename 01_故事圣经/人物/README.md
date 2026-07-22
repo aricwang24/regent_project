@@ -9,6 +9,7 @@
 - `许青岚.md`
 - `Nico.md`
 - `沈嘉宁.md`
+- `苏文菁.md`
 - `Sam_Mercer.md`
 - `Steve_Gu.md`
 - `Walter_Walt_McKenna.md`
