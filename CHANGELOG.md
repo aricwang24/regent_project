@@ -6,6 +6,7 @@
 - 锁定Nico由原有Glock转向Beretta 3032 Tomcat Inox（.32 ACP）：她认可Glock可靠性但不喜欢厚方握把，最终根据尺寸、金属质感、翻转枪管与日常摄影携带需求选择3032；正式购买及许可调整随后在Long Beach完成。
 - 锁定Andrew Kwan的标志性配枪为6.5英寸Smith & Wesson Model 500（.500 S&W Magnum，五发，空枪约1.72公斤）；该枪主要作为其在家族受控空间中的权力象征，由安保承担实际战斗职责，Andrew本人很少真正开火。
 - 锁定Steve拥有一条2021款Defiance 250 Admiral EX私人海钓艇，采用封闭驾驶舱与双Yamaha F150舷外机；并新增功能性配角Ray Halvorsen：约四十岁的Grays Harbor本地船艇从业者，海上经验较丰富，由顾父找来帮忙照看船只并陪Steve跑远海；不设职业船长式高地位或教父功能。2022年Westport巨型蓝鳍事件固定为林峻、Steve与Ray三人出海。
+- 新增 `01_故事圣经/装备/枪械设定总表.md`，将Sam Mercer、Steve Gu、Walter McKenna与Nico的枪械型号、口径、枪管、用途、购入阶段和人物逻辑统一收口；锁定Sam的Model 700、870 Wingmaster、5.56 AR-15与HK P30 V3体系，Steve的Model 21、Auto-5、Sako 90及四把手枪体系，沃尔特的.338 Win Mag Model 70 Alaskan，以及Nico由Glock转向Beretta 3032 Tomcat Inox的阶段变化。
 
 ## 2026-07-25
 
