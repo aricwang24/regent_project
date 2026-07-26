@@ -6,7 +6,7 @@
 
 ## 一、事件前提
 
-2022年秋，林峻从Phoenix前往Seattle与Steve Gu见面。Steve拥有一条约25—26英尺、带封闭驾驶舱和双舷外机的私人海钓艇，金枪鱼季停放在Westport。他临时邀请林峻同行，原计划只是进行一次普通的长鳍金枪鱼海钓。
+2022年秋，林峻从Phoenix前往Seattle与Steve Gu见面。Steve拥有一条2021款Defiance 250 Admiral EX私人海钓艇，采用封闭驾驶舱与双Yamaha F150舷外机，金枪鱼季停放在Westport。他临时邀请林峻同行，原计划只是进行一次普通的长鳍金枪鱼海钓。
 
 船上只有三个人：林峻、Steve，以及Ray Halvorsen。Ray约四十岁，是Grays Harbor一带本地人，在Westport从事船艇维护和海上服务，长期参加近海及外海作钓，对当地天气、航线、船况和长鳍金枪鱼海钓比较熟悉。Steve买船后，顾父通过当地关系找到Ray，请他帮忙照看船只，并在Steve跑远海时陪同。
 
