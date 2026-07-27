@@ -1,6 +1,6 @@
 ---
 name: regent-novel
-description: Manage and write the long-form Chinese novel project 《摄政王·远岬》 by routing canon work, story-pool work, overall/volume/chapter planning, chapter drafting or revision, character and relationship checks, vehicle and equipment consistency, factual research, timeline and continuity review, visual consistency, prose review, and session handoff. Use whenever Codex works on this specific novel or its repository, including requests mentioning 摄政王、远岬、林峻、林漪、沈嘉宁、Nico, the Regent project, its outlines, chapters, vehicles, hunting, travel, or continuity records.
+description: Manage and write the long-form Chinese novel project 《摄政王·远岬》 by routing canon work, story-pool work, overall/volume/chapter planning, chapter drafting or revision, character and relationship checks, dialogue design, vehicle and equipment consistency, factual research, timeline and continuity review, visual consistency, prose review, and session handoff. Use whenever Codex works on this specific novel or its repository, including requests mentioning 摄政王、远岬、林峻、林漪、沈嘉宁、Nico, the Regent project, its outlines, chapters, vehicles, hunting, travel, or continuity records.
 ---
 
 # Regent Novel
@@ -45,13 +45,14 @@ For conflicts and status labels, read [references/source-priority.md](references
 | plot-unit planning | [story-architecture](modules/story-architecture.md) |
 | chapter brief or outline | [chapter-outline](modules/chapter-outline.md) |
 | draft or revise a chapter | [chapter-drafting](modules/chapter-drafting.md) |
+| dialogue planning, drafting, revision, or voice calibration | [dialogue-design](modules/dialogue-design.md) |
 | character consistency | [character-consistency](modules/character-consistency.md) |
 | intimacy, consent, dependency, or relationship boundaries | [relationship-boundaries](modules/relationship-boundaries.md) |
 | vehicles, equipment, spatial layout, injury mechanics | [technical-consistency](modules/technical-consistency.md) |
 | law, dates, jurisdiction, roads, products, medicine, or other real facts | [factual-research](modules/factual-research.md) |
 | image or design continuity | [visual-consistency](modules/visual-consistency.md) |
 | timeline, knowledge, state, or cross-chapter audit | [continuity-review](modules/continuity-review.md) |
-| tone, narration, dialogue, pacing, or AI-pattern review | [prose-review](modules/prose-review.md) |
+| tone, narration, pacing, language texture, or AI-pattern review | [prose-review](modules/prose-review.md) |
 | end-of-session recovery record | [session-handoff](modules/session-handoff.md) |
 
 Use multiple modules only when the task crosses their boundaries. Fix canon/causality/state problems before sentence-level prose.
@@ -70,13 +71,14 @@ Modify `01_故事圣经/`, `02_机设与装备/`, or the master timeline only wh
 
 1. Identify the exact deliverable, target file, story stage, and whether writes are authorized.
 2. Load project rules, authority files, the relevant outline, the master timeline, current states, and only the involved character/vehicle/visual files.
-3. Separate locked facts, tentative facts, unknowns, and real-world claims.
-4. Apply the factual research gate. Never guess an A-level fact.
-5. Produce the requested artifact with the routed module.
-6. Review causality, character, relationship boundaries, technical/spatial logic, time/location, knowledge state, serial readability, and prose.
-7. Update only state files that actually changed. Do not mechanically touch every ledger.
-8. Record unresolved conflicts or research blockers without fabricating a resolution.
-9. Generate a session handoff for substantial work.
+3. For material dialogue, also load the formal dialogue principles, involved character files, relevant relationship files, and current scene context. Use a brief internal interaction note only when useful; do not turn traits into dialogue quotas or fixed roles.
+4. Separate locked facts, tentative facts, unknowns, and real-world claims.
+5. Apply the factual research gate. Never guess an A-level fact.
+6. Produce the requested artifact with the routed module.
+7. Review causality, character, dialogue state and overcorrection, relationship boundaries, technical/spatial logic, time/location, knowledge state, serial readability, and prose.
+8. Update only state files that actually changed. Do not mechanically touch every ledger.
+9. Record unresolved conflicts or research blockers without fabricating a resolution.
+10. Generate a session handoff for substantial work.
 
 For chapter drafting, follow the full checklist in [modules/chapter-drafting.md](modules/chapter-drafting.md). For artifact writes, follow [references/artifact-update-rules.md](references/artifact-update-rules.md).
 
@@ -89,4 +91,3 @@ Read [references/fanqie-serial-rules.md](references/fanqie-serial-rules.md), [re
 ## Finish with evidence
 
 Report files read, files changed, checks run, research sources used, conflicts found, ledgers updated, and remaining blockers. Do not claim research, validation, file creation, or Git operations that did not occur.
-
