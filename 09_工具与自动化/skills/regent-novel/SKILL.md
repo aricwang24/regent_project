@@ -1,19 +1,19 @@
 ---
 name: regent-novel
-description: Manage and write the long-form Chinese novel project 《摄政王·远岬》 by routing canon work, story-pool work, overall/volume/chapter planning, chapter drafting or revision, character and relationship checks, dialogue design, vehicle and equipment consistency, factual research, timeline and continuity review, visual consistency, prose review, and session handoff. Use whenever Codex works on this specific novel or its repository, including requests mentioning 摄政王、远岬、林峻、林漪、沈嘉宁、Nico, the Regent project, its outlines, chapters, vehicles, hunting, travel, or continuity records.
+description: Manage and write the long-form Chinese novel project 《摄政王·远岬》 by routing canon work, story planning, chapter drafting or revision, character and relationship checks, dialogue work, vehicle and equipment consistency, factual research, continuity review, visual consistency, prose review, and session handoff. Use whenever Codex works on this novel or its repository.
 ---
 
 # Regent Novel
 
-Treat this skill as the project router, context assembler, workflow, and completion gate. Keep canon, outlines, prose, research, and visual assets in the novel repository; do not duplicate them here.
+Use this skill as a lightweight router and source-of-truth guard. Canon, outlines, prose, research and visual assets remain in the repository; do not duplicate them in the skill.
 
 ## Locate the project
 
-Find the repository root containing `AGENTS.md` and the numbered directories `00_项目总控/` through `09_工具与自动化/`. Read the applicable `AGENTS.md` and the README of every directory to be touched.
+Find the repository root containing `AGENTS.md` and the numbered directories `00_项目总控/` through `09_工具与自动化/`. Read the applicable root rules and the README of directories that will actually be modified.
 
-If only the connected GitHub repository is available, identify the exact repository and default branch before reading or writing. Prefer local files when a current checkout exists; keep remote and local contexts aligned. Never assume that an unlinked local folder is the repository.
+If only the connected GitHub repository is available, identify the exact repository and default branch before writing. Prefer a current local checkout when one exists; never assume an unrelated local folder is the project.
 
-Read [references/project-loading.md](references/project-loading.md) before assembling context. Load the smallest sufficient set, not the entire story bible.
+Read [references/project-loading.md](references/project-loading.md) and load only the context required by the routed task. Do not automatically load the full story bible, master timeline, all current states, all characters or all review modules.
 
 ## Resolve authority
 
@@ -32,7 +32,7 @@ Apply this order:
 11. external examples;
 12. model memory.
 
-For conflicts and status labels, read [references/source-priority.md](references/source-priority.md). Report unresolved conflicts; do not silently choose a winner.
+For conflicts and status labels, read [references/source-priority.md](references/source-priority.md). Report unresolved conflicts instead of silently choosing or filling gaps from old material.
 
 ## Route the task
 
@@ -45,7 +45,7 @@ For conflicts and status labels, read [references/source-priority.md](references
 | plot-unit planning | [story-architecture](modules/story-architecture.md) |
 | chapter brief or outline | [chapter-outline](modules/chapter-outline.md) |
 | draft or revise a chapter | [chapter-drafting](modules/chapter-drafting.md) |
-| dialogue planning, drafting, revision, or voice calibration | [dialogue-design](modules/dialogue-design.md) |
+| dialogue-focused work or voice calibration | [dialogue-design](modules/dialogue-design.md) |
 | character consistency | [character-consistency](modules/character-consistency.md) |
 | intimacy, consent, dependency, or relationship boundaries | [relationship-boundaries](modules/relationship-boundaries.md) |
 | vehicles, equipment, spatial layout, injury mechanics | [technical-consistency](modules/technical-consistency.md) |
@@ -55,39 +55,38 @@ For conflicts and status labels, read [references/source-priority.md](references
 | tone, narration, pacing, language texture, or AI-pattern review | [prose-review](modules/prose-review.md) |
 | end-of-session recovery record | [session-handoff](modules/session-handoff.md) |
 
-Use multiple modules only when the task crosses their boundaries. Fix canon/causality/state problems before sentence-level prose.
+Use multiple modules only when the requested work genuinely crosses their boundaries. A local rewrite or scene experiment should remain local.
 
 ## Protect formal canon
 
-Modify `01_故事圣经/`, `02_机设与装备/`, or the master timeline only when the user explicitly asks to change formal canon. Normal planning and drafting never authorize retroactive canon edits.
+Modify `01_故事圣经/`, `02_机设与装备/`, or the master timeline only when the user explicitly asks to change formal canon.
 
-- Do not make a character act out of bounds to rescue a scene.
-- Do not turn a draft, option, archive item, or story-pool card into canon.
-- Do not replace locked fictional machine choices with a newly found real-world alternative.
-- Do not put a second master timeline under `03_大纲/`.
+- Do not turn a draft, option, archive item or story-pool card into canon.
+- Do not alter a character or machine merely to rescue one scene.
+- Do not replace locked fictional choices with newly found alternatives without authorization.
+- Do not create a second master timeline.
 - Put unscheduled ideas in `03_大纲/故事池/` using [templates/story-card.md](templates/story-card.md).
 
-## Run the workflow
+## Normal workflow
 
-1. Identify the exact deliverable, target file, story stage, and whether writes are authorized.
-2. Load project rules, authority files, the relevant outline, the master timeline, current states, and only the involved character/vehicle/visual files.
-3. For material dialogue, also load the formal dialogue principles, involved character files, relevant relationship files, and current scene context. Use a brief internal interaction note only when useful; do not turn traits into dialogue quotas or fixed roles.
-4. Separate locked facts, tentative facts, unknowns, and real-world claims.
-5. Apply the factual research gate. Never guess an A-level fact.
-6. Produce the requested artifact with the routed module.
-7. Review causality, character, dialogue state and overcorrection, relationship boundaries, technical/spatial logic, time/location, knowledge state, serial readability, and prose.
-8. Update only state files that actually changed. Do not mechanically touch every ledger.
-9. Record unresolved conflicts or research blockers without fabricating a resolution.
-10. Generate a session handoff for substantial work.
+1. Identify the requested deliverable, target file and write authorization.
+2. Route the task and load the module's minimum current context.
+3. Separate locked facts, tentative facts, unknowns and real-world claims only where they matter.
+4. Research high-risk real-world facts when needed; do not let research interrupt ordinary fictional details.
+5. Produce the requested artifact.
+6. Review only the dimensions that could actually make this artifact fail. Do not run the full project checklist on every paragraph, dialogue or local edit.
+7. Update only files and ledgers that were truly changed.
+8. Report unresolved conflicts or blockers without fabricating a resolution.
+9. Create a session handoff only for substantial work where later recovery would be useful.
 
-For chapter drafting, follow the full checklist in [modules/chapter-drafting.md](modules/chapter-drafting.md). For artifact writes, follow [references/artifact-update-rules.md](references/artifact-update-rules.md).
+For chapter drafting, follow [modules/chapter-drafting.md](modules/chapter-drafting.md). For artifact writes, follow [references/artifact-update-rules.md](references/artifact-update-rules.md).
 
 ## Preserve the reading experience
 
-Default to the Fanqie serial manuscript mode with publication-integrity protection. Plan in 20,000–40,000-character story units, then divide into mobile-readable releases usually around 2,300–3,000 Chinese characters. Do not break a complete emotional climax, decisive conversation, or core action merely to hit a count.
+Default to Fanqie serial manuscript mode while protecting complete emotional, action, dialogue and life processes. Story units may be divided into mobile-readable releases usually around 2,300–3,000 Chinese characters, but never break a complete climax, decisive conversation or core process merely to hit a number.
 
-Read [references/fanqie-serial-rules.md](references/fanqie-serial-rules.md), [references/publication-integrity.md](references/publication-integrity.md), and [references/narrative-style-protocol.md](references/narrative-style-protocol.md) when drafting or revising prose.
+Read [references/fanqie-serial-rules.md](references/fanqie-serial-rules.md), [references/publication-integrity.md](references/publication-integrity.md), and [references/narrative-style-protocol.md](references/narrative-style-protocol.md) only when drafting or revising prose at that scale.
 
 ## Finish with evidence
 
-Report files read, files changed, checks run, research sources used, conflicts found, ledgers updated, and remaining blockers. Do not claim research, validation, file creation, or Git operations that did not occur.
+Report what was actually read, changed, checked and left unresolved. Do not claim research, validation, file creation or Git operations that did not occur; do not pad the report with untouched dimensions.
