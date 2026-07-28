@@ -1,61 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
   <title id="title">《摄政王·远岬》仓库封面</title>
-  <desc id="desc">夕阳、群山、公路与一辆驶向远方的美式房车</desc>
+  <desc id="desc">以仓库美术素材“摄政王_山庄.png”为背景的小说项目封面</desc>
+
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#13233a"/>
-      <stop offset="0.48" stop-color="#8f5362"/>
-      <stop offset="1" stop-color="#f2a45f"/>
+    <linearGradient id="topShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#100f0e" stop-opacity="0.74"/>
+      <stop offset="0.42" stop-color="#171411" stop-opacity="0.34"/>
+      <stop offset="0.72" stop-color="#171411" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#171411" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#4b4e55"/>
-      <stop offset="1" stop-color="#17191e"/>
-    </linearGradient>
-    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fff5c7"/>
-      <stop offset="1" stop-color="#ffbd68"/>
-    </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="18"/>
+    <filter id="textShadow" x="-20%" y="-30%" width="140%" height="170%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur"/>
+      <feOffset dy="3" result="offset"/>
+      <feColorMatrix in="offset" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .58 0" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
 
-  <rect width="1600" height="620" fill="url(#sky)"/>
-  <circle cx="1260" cy="165" r="92" fill="#ffd38a" opacity="0.28" filter="url(#glow)"/>
-  <circle cx="1260" cy="165" r="63" fill="url(#sun)"/>
+  <rect width="1600" height="900" fill="#171411"/>
+  <image x="0" y="0" width="1600" height="900" preserveAspectRatio="xMidYMid slice"
+         href="../../06_美术资产/车辆/摄政王_山庄.png"
+         xlink:href="../../06_美术资产/车辆/摄政王_山庄.png"/>
+  <rect width="1600" height="610" fill="url(#topShade)"/>
 
-  <path d="M0 360 L150 250 L300 330 L470 205 L650 335 L820 230 L1030 338 L1210 250 L1400 330 L1600 225 L1600 620 L0 620 Z" fill="#283242" opacity="0.96"/>
-  <path d="M0 410 L210 315 L375 395 L570 295 L760 405 L965 315 L1170 410 L1390 305 L1600 390 L1600 620 L0 620 Z" fill="#1d2733"/>
-  <path d="M0 470 C280 415 540 420 800 455 C1050 486 1300 468 1600 420 L1600 620 L0 620 Z" fill="#131a21"/>
+  <g fill="#efd29c" text-anchor="middle" filter="url(#textShadow)">
+    <text x="800" y="205" font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','STSong',serif"
+          font-size="112" font-weight="700" letter-spacing="8">《摄政王·远岬》</text>
 
-  <path d="M520 620 L730 402 L875 402 L1110 620 Z" fill="url(#road)"/>
-  <path d="M795 620 L805 532 L816 532 L826 620 Z" fill="#e8d8a8" opacity="0.92"/>
-  <path d="M809 497 L813 454 L819 454 L822 497 Z" fill="#e8d8a8" opacity="0.88"/>
-  <path d="M816 432 L818 409 L821 409 L823 432 Z" fill="#e8d8a8" opacity="0.8"/>
+    <line x1="405" y1="286" x2="585" y2="286" stroke="#efd29c" stroke-width="2" opacity="0.78"/>
+    <line x1="1015" y1="286" x2="1195" y2="286" stroke="#efd29c" stroke-width="2" opacity="0.78"/>
+    <text x="800" y="310" font-family="Georgia,'Times New Roman',serif"
+          font-size="50" letter-spacing="22">FORELAND</text>
 
-  <g transform="translate(1035 405)">
-    <path d="M10 80 L28 27 Q33 10 50 10 L228 10 Q245 10 250 27 L264 80 Z" fill="#ece8df"/>
-    <path d="M47 18 L218 18 L232 54 L34 54 Z" fill="#71808f"/>
-    <rect x="72" y="0" width="112" height="13" rx="4" fill="#d8d2c7"/>
-    <rect x="92" y="-13" width="72" height="14" rx="4" fill="#202831"/>
-    <rect x="24" y="57" width="235" height="48" rx="8" fill="#ddd8cf"/>
-    <rect x="101" y="66" width="82" height="18" rx="4" fill="#252d35"/>
-    <circle cx="63" cy="103" r="24" fill="#11161b"/>
-    <circle cx="220" cy="103" r="24" fill="#11161b"/>
-    <circle cx="63" cy="103" r="10" fill="#707982"/>
-    <circle cx="220" cy="103" r="10" fill="#707982"/>
-    <rect x="31" y="68" width="22" height="10" rx="3" fill="#ffc873"/>
-    <rect x="229" y="68" width="22" height="10" rx="3" fill="#d94f4f"/>
+    <text x="800" y="385" font-family="'Noto Serif SC','Source Han Serif SC','Songti SC','STSong',serif"
+          font-size="34" letter-spacing="12" opacity="0.96">现代公路小说项目</text>
+
+    <line x1="690" y1="440" x2="770" y2="440" stroke="#efd29c" stroke-width="2" opacity="0.68"/>
+    <path d="M800 432 L808 440 L800 448 L792 440 Z" fill="#efd29c" opacity="0.86"/>
+    <line x1="830" y1="440" x2="910" y2="440" stroke="#efd29c" stroke-width="2" opacity="0.68"/>
   </g>
-
-  <g fill="#f7f1e7">
-    <text x="110" y="165" font-family="'Noto Serif SC','Songti SC','STSong',serif" font-size="74" font-weight="700" letter-spacing="7">摄政王·远岬</text>
-    <text x="116" y="220" font-family="'Noto Sans SC','Microsoft YaHei',sans-serif" font-size="24" letter-spacing="5" opacity="0.9">现实主义底色下的公路浪漫史诗</text>
-    <text x="116" y="272" font-family="Georgia,serif" font-size="17" letter-spacing="4" opacity="0.66">REGENT · FORELAND</text>
-  </g>
-
-  <rect x="110" y="310" width="510" height="1" fill="#f7f1e7" opacity="0.35"/>
-  <text x="114" y="353" fill="#f7f1e7" opacity="0.88" font-family="'Noto Sans SC','Microsoft YaHei',sans-serif" font-size="21">
-    伙伴、机器、北美生活与不断延伸的美洲公路
-  </text>
 </svg>
