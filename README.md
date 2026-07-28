@@ -4,7 +4,7 @@
 
 <h1 align="center">《摄政王·远岬》</h1>
 
-<p align="center"><strong>现实主义底色的现代公路浪漫史诗</strong></p>
+<p align="center"><strong>现实主义底色下的公路浪漫史诗</strong></p>
 
 <p align="center">一辆从事故残骸中重生的重型房车，一群把日常生活驶成传奇旅程的冒险者。</p>
 
