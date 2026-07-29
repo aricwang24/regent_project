@@ -75,15 +75,16 @@ Modify `01_故事圣经/`, `02_机设与装备/`, or the master timeline only wh
 4. Research high-risk real-world facts when needed; do not let research interrupt ordinary fictional details.
 5. Produce the requested artifact.
 6. Review only the dimensions that could actually make this artifact fail. Do not run the full project checklist on every paragraph, dialogue or local edit.
-7. Update only files and ledgers that were truly changed.
-8. Report unresolved conflicts or blockers without fabricating a resolution.
-9. Create a session handoff only for substantial work where later recovery would be useful.
+7. Before promoting prose to `04_正文/`, distinguish a viable formal version from a calibration draft or failed draft. New-book openings and uncalibrated narrative voices default to `08_创作工作区/` until the user explicitly approves the writing voice.
+8. Update only files and ledgers that were truly changed.
+9. Report unresolved conflicts or blockers without fabricating a resolution.
+10. Create a session handoff only for substantial work where later recovery would be useful.
 
 For chapter drafting, follow [modules/chapter-drafting.md](modules/chapter-drafting.md). For artifact writes, follow [references/artifact-update-rules.md](references/artifact-update-rules.md).
 
 ## Preserve the reading experience
 
-Default to Fanqie serial manuscript mode while protecting complete emotional, action, dialogue and life processes. Story units may be divided into mobile-readable releases usually around 2,300–3,000 Chinese characters, but never break a complete climax, decisive conversation or core process merely to hit a number.
+Default to Fanqie serial manuscript mode while protecting complete emotional, action, dialogue and life processes. Story units may be divided into mobile-readable releases usually around 2,300–3,000 Chinese characters, but this is only a common publishing range. A chapter whose actual content supports about 1,800–2,500 characters should remain short rather than be padded; a complete process may also run longer. Never break or inflate a climax, decisive conversation, core process or ordinary life scene merely to hit a number.
 
 Read [references/fanqie-serial-rules.md](references/fanqie-serial-rules.md), [references/publication-integrity.md](references/publication-integrity.md), and [references/narrative-style-protocol.md](references/narrative-style-protocol.md) only when drafting or revising prose at that scale.
 
