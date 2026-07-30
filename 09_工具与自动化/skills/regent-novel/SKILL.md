@@ -52,7 +52,8 @@ For conflicts and status labels, read [references/source-priority.md](references
 | law, dates, jurisdiction, roads, products, medicine, or other real facts | [factual-research](modules/factual-research.md) |
 | image or design continuity | [visual-consistency](modules/visual-consistency.md) |
 | timeline, knowledge, state, or cross-chapter audit | [continuity-review](modules/continuity-review.md) |
-| tone, narration, pacing, language texture, or AI-pattern review | [prose-review](modules/prose-review.md) |
+| tone, narration, pacing, language texture, or broad prose review | [prose-review](modules/prose-review.md) |
+| semantic repetition, checklist description, explanatory over-writing, or mechanical AI patterns | [naturalness-review](modules/naturalness-review.md) |
 | end-of-session recovery record | [session-handoff](modules/session-handoff.md) |
 
 Use multiple modules only when the requested work genuinely crosses their boundaries. A local rewrite or scene experiment should remain local.
@@ -74,7 +75,7 @@ Modify `01_故事圣经/`, `02_机设与装备/`, or the master timeline only wh
 3. Separate locked facts, tentative facts, unknowns and real-world claims only where they matter.
 4. Research high-risk real-world facts when needed; do not let research interrupt ordinary fictional details.
 5. Produce the requested artifact.
-6. Review only the dimensions that could actually make this artifact fail. Do not run the full project checklist on every paragraph, dialogue or local edit.
+6. Review only the dimensions that could actually make this artifact fail. For a complete chapter or long scene, run [naturalness-review](modules/naturalness-review.md) once after substantive issues are stable; do not use it as a line-by-line generation filter or rewrite naturally established prose.
 7. Before promoting prose to `04_正文/`, distinguish a viable formal version from a calibration draft or failed draft. New-book openings and uncalibrated narrative voices default to `08_创作工作区/` until the user explicitly approves the writing voice.
 8. Update only files and ledgers that were truly changed.
 9. Report unresolved conflicts or blockers without fabricating a resolution.
