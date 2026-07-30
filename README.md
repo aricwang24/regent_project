@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/regent-cover.svg" alt="《摄政王·远岬》：夕阳、群山、公路与驶向远方的房车" width="100%">
+  <img src="./assets/readme/regent-cover.png" alt="《摄政王·远岬》：夕阳、群山、公路与驶向远方的房车" width="100%">
 </p>
 
 <h1 align="center">《摄政王·远岬》</h1>
