@@ -15,6 +15,8 @@ If only the connected GitHub repository is available, identify the exact reposit
 
 Read [references/project-loading.md](references/project-loading.md) and load only the context required by the routed task. Do not automatically load the full story bible, master timeline, all current states, all characters or all review modules.
 
+For a complete chapter draft, complete chapter rewrite or chapter-level overall revision, always load the four-file prose core defined in `project-loading.md`: the work definition and themes, formal narrative style, creative workflow, and dialogue principles. Reuse them within the same session when unchanged; do not replace this fixed core with a vague assumption that `00_项目总控/` was already covered.
+
 ## Resolve authority
 
 Apply this order:
@@ -71,15 +73,16 @@ Modify `01_故事圣经/`, `02_机设与装备/`, or the master timeline only wh
 ## Normal workflow
 
 1. Identify the requested deliverable, target file and write authorization.
-2. Route the task and load the module's minimum current context.
+2. Route the task and load the module's minimum current context; complete chapter work must include the fixed prose core.
 3. Separate locked facts, tentative facts, unknowns and real-world claims only where they matter.
-4. Research high-risk real-world facts when needed; do not let research interrupt ordinary fictional details.
-5. Produce the requested artifact.
-6. Review only the dimensions that could actually make this artifact fail. For a complete chapter or long scene, run [naturalness-review](modules/naturalness-review.md) once after substantive issues are stable; do not use it as a line-by-line generation filter or rewrite naturally established prose.
-7. Before promoting prose to `04_正文/`, distinguish a viable formal version from a calibration draft or failed draft. New-book openings and uncalibrated narrative voices default to `08_创作工作区/` until the user explicitly approves the writing voice.
-8. Update only files and ledgers that were truly changed.
-9. Report unresolved conflicts or blockers without fabricating a resolution.
-10. Create a session handoff only for substantial work where later recovery would be useful.
+4. When reading an outline, distinguish its continuous chapter line, genuinely mandatory facts, and optional idea-preservation material. Do not assume every listed detail has equal drafting weight.
+5. Research high-risk real-world facts when needed; do not let research interrupt ordinary fictional details.
+6. Produce the requested artifact.
+7. Review only the dimensions that could actually make this artifact fail. For a complete chapter or long scene, run [naturalness-review](modules/naturalness-review.md) once after substantive issues are stable; do not use it as a line-by-line generation filter or rewrite naturally established prose.
+8. Before promoting prose to `04_正文/`, distinguish a viable formal version from a calibration draft or failed draft. New-book openings and uncalibrated narrative voices default to `08_创作工作区/` until the user explicitly approves the writing voice.
+9. Update only files and ledgers that were truly changed.
+10. Report unresolved conflicts or blockers without fabricating a resolution.
+11. Create a session handoff only for substantial work where later recovery would be useful.
 
 For chapter drafting, follow [modules/chapter-drafting.md](modules/chapter-drafting.md). For artifact writes, follow [references/artifact-update-rules.md](references/artifact-update-rules.md).
 
